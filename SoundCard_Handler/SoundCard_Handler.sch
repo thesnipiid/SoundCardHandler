@@ -1,0 +1,522 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Audio_persolib:CONN_36_P1.00_PCI P1
+U 1 1 5F2ADA1C
+P 9800 4150
+F 0 "P1" H 9950 4265 50  0000 C CNN
+F 1 "CONN_36_P1.00_PCI" H 9950 4174 50  0000 C CNN
+F 2 "Audio_perso:SAMTEC_PCIE-036-02-X-D-RA" H 9950 1950 50  0001 C CNN
+F 3 "" H 9800 4150 50  0001 C CNN
+	1    9800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F2AFC4E
+P 9300 4450
+F 0 "#PWR0101" H 9300 4200 50  0001 C CNN
+F 1 "GND" H 9305 4277 50  0000 C CNN
+F 2 "" H 9300 4450 50  0001 C CNN
+F 3 "" H 9300 4450 50  0001 C CNN
+	1    9300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4300 9600 4300
+Wire Wire Line
+	9600 4300 9600 4400
+Wire Wire Line
+	9600 4600 9700 4600
+Wire Wire Line
+	9700 4500 9600 4500
+Connection ~ 9600 4500
+Wire Wire Line
+	9600 4500 9600 4600
+Wire Wire Line
+	9700 4400 9600 4400
+Connection ~ 9600 4400
+Wire Wire Line
+	9600 4400 9600 4500
+Wire Wire Line
+	10200 4600 10300 4600
+Wire Wire Line
+	10300 4600 10300 4700
+Wire Wire Line
+	10300 4700 10200 4700
+Wire Wire Line
+	10200 4900 10300 4900
+Wire Wire Line
+	10300 4900 10300 5000
+Wire Wire Line
+	10300 5000 10200 5000
+Wire Wire Line
+	10200 5600 10300 5600
+Wire Wire Line
+	10300 5600 10300 5700
+Wire Wire Line
+	10300 5900 10200 5900
+Wire Wire Line
+	10200 5800 10300 5800
+Connection ~ 10300 5800
+Wire Wire Line
+	10300 5800 10300 5900
+Wire Wire Line
+	10200 5700 10300 5700
+Connection ~ 10300 5700
+Wire Wire Line
+	10300 5700 10300 5800
+Wire Wire Line
+	9700 6000 9600 6000
+Wire Wire Line
+	9600 6000 9600 6100
+Wire Wire Line
+	9600 6200 9700 6200
+Wire Wire Line
+	9700 6100 9600 6100
+Connection ~ 9600 6100
+Wire Wire Line
+	9600 6100 9600 6200
+Wire Wire Line
+	9600 6000 9600 5900
+Wire Wire Line
+	9600 5900 9700 5900
+Connection ~ 9600 6000
+Wire Wire Line
+	9700 5100 9600 5100
+Wire Wire Line
+	9600 5100 9600 5200
+Wire Wire Line
+	9600 5200 9700 5200
+Wire Wire Line
+	9700 4900 9600 4900
+Wire Wire Line
+	9600 4900 9600 4800
+Wire Wire Line
+	9600 4800 9700 4800
+Wire Wire Line
+	9300 4450 9300 4400
+Wire Wire Line
+	9300 4400 9600 4400
+$Comp
+L power:GND #PWR0102
+U 1 1 5F2B4C52
+P 9300 4850
+F 0 "#PWR0102" H 9300 4600 50  0001 C CNN
+F 1 "GND" H 9305 4677 50  0000 C CNN
+F 2 "" H 9300 4850 50  0001 C CNN
+F 3 "" H 9300 4850 50  0001 C CNN
+	1    9300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4850 9300 4800
+Wire Wire Line
+	9300 4800 9600 4800
+Connection ~ 9600 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 5F2B56ED
+P 9300 5200
+F 0 "#PWR0103" H 9300 4950 50  0001 C CNN
+F 1 "GND" H 9305 5027 50  0000 C CNN
+F 2 "" H 9300 5200 50  0001 C CNN
+F 3 "" H 9300 5200 50  0001 C CNN
+	1    9300 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5200 9300 5100
+Wire Wire Line
+	9300 5100 9600 5100
+Connection ~ 9600 5100
+$Comp
+L power:GND #PWR0104
+U 1 1 5F2B628F
+P 10600 4650
+F 0 "#PWR0104" H 10600 4400 50  0001 C CNN
+F 1 "GND" H 10605 4477 50  0000 C CNN
+F 2 "" H 10600 4650 50  0001 C CNN
+F 3 "" H 10600 4650 50  0001 C CNN
+	1    10600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 4650 10600 4600
+Wire Wire Line
+	10600 4600 10300 4600
+Connection ~ 10300 4600
+$Comp
+L power:GND #PWR0105
+U 1 1 5F2B6FA1
+P 10600 5000
+F 0 "#PWR0105" H 10600 4750 50  0001 C CNN
+F 1 "GND" H 10605 4827 50  0000 C CNN
+F 2 "" H 10600 5000 50  0001 C CNN
+F 3 "" H 10600 5000 50  0001 C CNN
+	1    10600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5000 10600 4900
+Wire Wire Line
+	10600 4900 10300 4900
+Connection ~ 10300 4900
+$Comp
+L power:GND #PWR0106
+U 1 1 5F2B801B
+P 10600 5750
+F 0 "#PWR0106" H 10600 5500 50  0001 C CNN
+F 1 "GND" H 10605 5577 50  0000 C CNN
+F 2 "" H 10600 5750 50  0001 C CNN
+F 3 "" H 10600 5750 50  0001 C CNN
+	1    10600 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5750 10600 5700
+Wire Wire Line
+	10600 5700 10300 5700
+$Comp
+L power:GND #PWR0107
+U 1 1 5F2B9344
+P 9300 6050
+F 0 "#PWR0107" H 9300 5800 50  0001 C CNN
+F 1 "GND" H 9305 5877 50  0000 C CNN
+F 2 "" H 9300 6050 50  0001 C CNN
+F 3 "" H 9300 6050 50  0001 C CNN
+	1    9300 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6050 9300 6000
+Wire Wire Line
+	9300 6000 9600 6000
+$Comp
+L power:VCC #PWR0108
+U 1 1 5F2BA398
+P 8650 5650
+F 0 "#PWR0108" H 8650 5500 50  0001 C CNN
+F 1 "VCC" H 8665 5823 50  0000 C CNN
+F 2 "" H 8650 5650 50  0001 C CNN
+F 3 "" H 8650 5650 50  0001 C CNN
+	1    8650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5800 9600 5700
+Wire Wire Line
+	9600 5600 9700 5600
+Wire Wire Line
+	9600 5800 9700 5800
+Wire Wire Line
+	9700 5700 9600 5700
+Connection ~ 9600 5700
+Wire Wire Line
+	9600 5700 9600 5600
+$Comp
+L power:+24V #PWR0109
+U 1 1 5F2BCFB8
+P 10600 6200
+F 0 "#PWR0109" H 10600 6050 50  0001 C CNN
+F 1 "+24V" H 10615 6373 50  0000 C CNN
+F 2 "" H 10600 6200 50  0001 C CNN
+F 3 "" H 10600 6200 50  0001 C CNN
+	1    10600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 6200 10300 6200
+Wire Wire Line
+	10300 6200 10300 6100
+Wire Wire Line
+	10300 6000 10200 6000
+Connection ~ 10300 6200
+Wire Wire Line
+	10300 6200 10200 6200
+Wire Wire Line
+	10200 6100 10300 6100
+Connection ~ 10300 6100
+Wire Wire Line
+	10300 6100 10300 6000
+Text Label 10200 5300 0    50   ~ 0
+SHDNZ
+Text Label 10200 5200 0    50   ~ 0
+SCL
+Text Label 10200 5100 0    50   ~ 0
+SDA
+Text Label 9700 5300 2    50   ~ 0
+FSYNC
+Text Label 9700 5000 2    50   ~ 0
+BCLK
+Text Label 9700 4700 2    50   ~ 0
+SDOUT
+Text Label 10200 4500 0    50   ~ 0
+ATT_DATA_IN
+Text Label 10200 4400 0    50   ~ 0
+ATT_~CS~
+Text Label 10200 4300 0    50   ~ 0
+ATT_CLOCK
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5F2C5918
+P 1950 4500
+F 0 "J1" H 1950 5981 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 1950 5890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1950 4500 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1950 4500 50  0001 C CNN
+	1    1950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5F2D3FBD
+P 1750 2900
+F 0 "#PWR0110" H 1750 2750 50  0001 C CNN
+F 1 "VCC" H 1765 3073 50  0000 C CNN
+F 2 "" H 1750 2900 50  0001 C CNN
+F 3 "" H 1750 2900 50  0001 C CNN
+	1    1750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2900 1750 3100
+Wire Wire Line
+	1850 3200 1850 3100
+Wire Wire Line
+	1850 3100 1750 3100
+Connection ~ 1750 3100
+Wire Wire Line
+	1750 3100 1750 3200
+$Comp
+L Device:Ferrite_Bead FB1
+U 1 1 5F2D8564
+P 9000 5700
+F 0 "FB1" V 8726 5700 50  0000 C CNN
+F 1 "Ferrite_Bead" V 8817 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 8930 5700 50  0001 C CNN
+F 3 "~" H 9000 5700 50  0001 C CNN
+	1    9000 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 5700 9600 5700
+Wire Wire Line
+	8850 5700 8650 5700
+Wire Wire Line
+	8650 5700 8650 5650
+$Comp
+L power:VCCQ #PWR0111
+U 1 1 5F2E771B
+P 5150 900
+F 0 "#PWR0111" H 5150 750 50  0001 C CNN
+F 1 "VCCQ" H 5165 1073 50  0000 C CNN
+F 2 "" H 5150 900 50  0001 C CNN
+F 3 "" H 5150 900 50  0001 C CNN
+	1    5150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 900  5150 1050
+Wire Wire Line
+	5150 1050 5000 1050
+$Comp
+L power:VCC #PWR0112
+U 1 1 5F2E91C3
+P 5350 900
+F 0 "#PWR0112" H 5350 750 50  0001 C CNN
+F 1 "VCC" H 5365 1073 50  0000 C CNN
+F 2 "" H 5350 900 50  0001 C CNN
+F 3 "" H 5350 900 50  0001 C CNN
+	1    5350 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5F2F023E
+P 4800 1050
+F 0 "J2" H 4908 1231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4908 1140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4800 1050 50  0001 C CNN
+F 3 "~" H 4800 1050 50  0001 C CNN
+	1    4800 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 900  5350 1150
+Wire Wire Line
+	5350 1150 5000 1150
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5F302339
+P 10300 2800
+F 0 "J4" H 10408 3081 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10408 2990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10300 2800 50  0001 C CNN
+F 3 "~" H 10300 2800 50  0001 C CNN
+	1    10300 2800
+	1    0    0    -1  
+$EndComp
+Text Label 10500 2200 0    50   ~ 0
+SDA
+Text Label 10500 2300 0    50   ~ 0
+SCL
+Text Label 10500 2400 0    50   ~ 0
+SHDNZ
+Text Label 10500 2900 0    50   ~ 0
+ATT_DATA_IN
+Text Label 10500 2800 0    50   ~ 0
+ATT_~CS~
+Text Label 10500 2700 0    50   ~ 0
+ATT_CLOCK
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 5F309E6A
+P 10350 1750
+F 0 "J7" H 10458 1931 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 10458 1840 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 1750 50  0001 C CNN
+F 3 "~" H 10350 1750 50  0001 C CNN
+	1    10350 1750
+	1    0    0    -1  
+$EndComp
+Text Label 10550 1150 0    50   ~ 0
+SDOUT
+Text Label 10550 1450 0    50   ~ 0
+BCLK
+Text Label 10550 1750 0    50   ~ 0
+FSYNC
+Text Label 2750 4700 0    50   ~ 0
+ATT_~CS~
+Text Label 1150 4400 2    50   ~ 0
+ATT_DATA_IN
+Text Label 1150 4500 2    50   ~ 0
+ATT_CLOCK
+Wire Wire Line
+	1550 5800 1550 5950
+Wire Wire Line
+	1550 5950 1650 5950
+Wire Wire Line
+	2250 5950 2250 5800
+Wire Wire Line
+	2150 5800 2150 5950
+Connection ~ 2150 5950
+Wire Wire Line
+	2150 5950 2250 5950
+Wire Wire Line
+	2050 5800 2050 5950
+Connection ~ 2050 5950
+Wire Wire Line
+	2050 5950 2150 5950
+Wire Wire Line
+	1950 5800 1950 5950
+Connection ~ 1950 5950
+Wire Wire Line
+	1950 5950 2050 5950
+Wire Wire Line
+	1850 5800 1850 5950
+Connection ~ 1850 5950
+Wire Wire Line
+	1850 5950 1950 5950
+Wire Wire Line
+	1750 5800 1750 5950
+Connection ~ 1750 5950
+Wire Wire Line
+	1750 5950 1850 5950
+Wire Wire Line
+	1650 5800 1650 5950
+Connection ~ 1650 5950
+Wire Wire Line
+	1650 5950 1750 5950
+$Comp
+L power:GND #PWR0113
+U 1 1 5F32DB5F
+P 1850 5950
+F 0 "#PWR0113" H 1850 5700 50  0001 C CNN
+F 1 "GND" H 1855 5777 50  0000 C CNN
+F 2 "" H 1850 5950 50  0001 C CNN
+F 3 "" H 1850 5950 50  0001 C CNN
+	1    1850 5950
+	1    0    0    -1  
+$EndComp
+Text Label 2750 3900 0    50   ~ 0
+SDA
+Text Label 2750 4000 0    50   ~ 0
+SCL
+Text Notes 9000 3900 0    118  ~ 0
+SoundCard Connector
+Text Notes 10050 800  0    118  ~ 0
+Test points
+Text Notes 1400 2550 0    118  ~ 0
+RPI connector
+Wire Notes Line
+	8400 3600 8400 6450
+Wire Notes Line
+	8400 6450 11150 6450
+Wire Notes Line
+	11150 6450 11150 3600
+Wire Notes Line
+	11150 3600 8400 3600
+Wire Notes Line
+	10000 600  11100 600 
+Wire Notes Line
+	11100 600  11100 3000
+Wire Notes Line
+	11100 3000 10000 3000
+Wire Notes Line
+	10000 3000 10000 600 
+Wire Notes Line
+	650  2350 650  6250
+Wire Notes Line
+	650  6250 3150 6250
+Wire Notes Line
+	3150 6250 3150 2350
+Wire Notes Line
+	650  2350 3150 2350
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5F376141
+P 10300 2300
+F 0 "J3" H 10408 2581 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10408 2490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10300 2300 50  0001 C CNN
+F 3 "~" H 10300 2300 50  0001 C CNN
+	1    10300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 5F376AA5
+P 10350 1450
+F 0 "J6" H 10458 1631 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 10458 1540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 1450 50  0001 C CNN
+F 3 "~" H 10350 1450 50  0001 C CNN
+	1    10350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 5F376D98
+P 10350 1150
+F 0 "J5" H 10458 1331 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 10458 1240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 1150 50  0001 C CNN
+F 3 "~" H 10350 1150 50  0001 C CNN
+	1    10350 1150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
